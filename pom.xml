@@ -2,16 +2,16 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>devops</groupId>
-	<artifactId>bigbird</artifactId>
+	<groupId>gee-5</groupId>
+	<artifactId>cohiba</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.1</version>
 
-	<name>bigbird</name>
+	<name>cohiba</name>
 	<description>Web-based editor for Auto-Build</description>
 
 	<build>
-		<finalName>bigbird</finalName>
+		<finalName>cohiba</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -49,16 +49,5 @@
 		</dependency>
 	</dependencies>
 
-	<issueManagement>
-		<system>Jira</system>
-		<url>http://tekcomms-jira.global.tektronix.net:8085/secure/</url>
-	</issueManagement>
-	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://to-be-determines</url>
-	</ciManagement>
-	<scm>
-		<url>http://tekcomms-stash.global.tektronix.net:7990/users/sgee/repos/bigbird/browse</url>
-		<connection>ssh://git@tekcomms-stash.global.tektronix.net:7999/~sgee/bigbird.git</connection>
-	</scm>
+
 </project>
